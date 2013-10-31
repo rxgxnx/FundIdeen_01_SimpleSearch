@@ -1,6 +1,5 @@
 package phWGinfo.fundIdeen_01_SimpleSearch;
 
-import com.sun.xml.internal.ws.util.StreamUtils;
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;
