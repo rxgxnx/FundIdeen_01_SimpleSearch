@@ -2,6 +2,7 @@ package phWGinfo.fundIdeen_01_SimpleSearch;
 
 import org.apache.commons.io.FileUtils;
 
+
 import java.io.File;
 import java.lang.String;
 import java.util.List;
@@ -15,10 +16,10 @@ public class SimpleSearch {
         List<String> lines = FileUtils.readLines(new File(new File("data"), "Lebensansichten_des_Katers_Murr.txt"));
         System.out.println("Datei gelesen.");
 
-        String anfrage = "Kreisler";
+        String anfrage = "Murr";
         for(String line: lines ) {
             if(line.contains(anfrage))
-                System.out.println(line);
+                System.out.println(line.replaceAll("Murr", "Katze"));
         }
 
     }
