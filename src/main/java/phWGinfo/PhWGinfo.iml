@@ -5,7 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/fundIdeen_01" isTestSource="false" packagePrefix="phWGinfo.fundIdeen_01_SimpleSearch" />
     </content>
-    <orderEntry type="jdk" jdkName="1.6 (2)" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library>
